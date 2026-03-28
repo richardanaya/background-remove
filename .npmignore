@@ -1,0 +1,56 @@
+# Tests
+test/
+tests/
+__tests__/
+*.test.js
+*.spec.js
+
+# Coverage
+coverage/
+.nyc_output/
+
+# CI/CD
+.github/
+.travis.yml
+.gitlab-ci.yml
+azure-pipelines.yml
+
+# Development configs
+.eslintrc*
+.prettierrc*
+.editorconfig
+.vscode/
+.idea/
+
+# Documentation (except README)
+docs/
+CONTRIBUTING.md
+CHANGELOG.md
+
+# Source control
+.git/
+.gitignore
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Misc
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Test output files (generated during development)
+*-nobg.*
+*-mask.*
+test-image*
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.tiff
+*.avif
